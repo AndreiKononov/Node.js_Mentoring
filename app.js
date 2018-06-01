@@ -1,12 +1,5 @@
-//const info = require('./config/config');
-//const User = require('./models/user');
-//const Product = require('./models/product');
-
 import info from './config/config';
-import User from './models/user';
-import Product from './models/product';
-
-//import {User, Product} from './models/';
+import { User, Product } from './models/modules';
 
 console.log(`${info.name}`);
 
