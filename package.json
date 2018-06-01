@@ -1,0 +1,30 @@
+{
+  "name": "node.js_training",
+  "version": "1.0.0",
+  "description": "The test application on Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js --exec babel-node --presets=env,stage-2",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiKononov/Node.js_Mentoring.git"
+  },
+  "author": "Andrei Kononov (Andrei_Konanau@epam.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiKononov/Node.js_Mentoring/issues"
+  },
+  "homepage": "https://github.com/AndreiKononov/Node.js_Mentoring#readme",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-register": "6.26.0",
+    "nodemon": "1.17.5"
+  }
+}
