@@ -1,5 +1,5 @@
 import info from './config/config';
-import { User, Product } from './models/modules';
+import { User, Product } from './models/index';
 
 console.log(`${info.name}`);
 

@@ -1,5 +1,6 @@
 export class Product {
-  constructor() {
+  constructor(name) {
+    this.name = name;
     console.log(`Product module`);
   }
 }
