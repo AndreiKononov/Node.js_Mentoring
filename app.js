@@ -1,7 +1,7 @@
 import info from './config/config';
-import { User, Product } from './models/index';
+import { Importer, Dirwatcher } from './models/index';
 
 console.log(`${info.name}`);
 
-new User();
-new Product();
+//new Importer();
+new Dirwatcher();

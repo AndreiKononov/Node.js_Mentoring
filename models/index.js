@@ -1,2 +1,2 @@
-export { User } from './user';
-export { Product } from './product';
+export { Importer } from './Importer';
+export { Dirwatcher } from './Dirwatcher';

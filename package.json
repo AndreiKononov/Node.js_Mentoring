@@ -4,7 +4,7 @@
   "description": "The test application on Node.js",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js --exec babel-node --presets=env,stage-2",
+    "start": "nodemon app.js ",
     "test": ""
   },
   "repository": {
@@ -25,6 +25,8 @@
     "babel-preset-env": "1.7.0",
     "babel-preset-stage-2": "6.24.1",
     "babel-register": "6.26.0",
+    "fs": "0.0.1-security",
+    "log-timestamp": "^0.1.2",
     "nodemon": "1.17.5"
   }
 }
